@@ -1,14 +1,21 @@
 #include <iostream>
-
+#include "math.h"
+#include <unistd.h>
+using namespace std;
 int main() {
-    double sum = 0;
-    long n = 39960000000; // Adjust this number to change the execution time
-
-    for (long i = 1; i <= n; ++i) {
-        sum += i * 0.75;
-        // Optional: Add nested loops here to increase computation time
-    }
-
-    std::cout << "Sum: " << sum << std::endl; // Optional output
-    return 0;
+	int n=2442;
+	float total=0;
+	int i=0;
+	int * array;
+	for(i=0;i<n;i++) {
+  		for(int j=0;j<n;j++) {
+        		array = new int[5];
+        		for(int k=0;k<n;k++){
+                		total=total+((float)k*0.75);///pow(2,n);
+                		array[0]=total;
+        		}
+        		delete  array;
+   		}
+	}
+	return 0;
 }
