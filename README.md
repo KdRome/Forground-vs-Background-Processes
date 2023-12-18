@@ -31,3 +31,4 @@ time ./output3
 ``` 
 
 ## Output
+![csc305_lab6 output](https://github.com/KdRome/Forground-vs-Background-Processes/assets/119768219/473408e9-9e13-477a-a974-91334c4bc0f1)
